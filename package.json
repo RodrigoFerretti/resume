@@ -1,0 +1,16 @@
+{
+  "name": "resume-pdf-generator",
+  "version": "1.0.0",
+  "description": "Generate PDF from HTML resume",
+  "scripts": {
+    "generate:pt-br": "node generate-pdf.js pt-br",
+    "generate:en-us": "node generate-pdf.js en-us",
+    "generate:all": "npm run generate:pt-br && npm run generate:en-us"
+  },
+  "keywords": [],
+  "author": "Rodrigo Ferretti",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
